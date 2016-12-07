@@ -7,4 +7,4 @@ is_name: false
 """Hillside House"" - was Half Moon Inn - then Hillside House - now (1988    89) Half Moon Court"
 
 
-The Stoke Climsland Parish Archive holds material under this index entry. To find out more please [contact us](/contact/)
+\n
