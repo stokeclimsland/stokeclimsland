@@ -7,4 +7,4 @@ is_name: true
 BRIGHT (BRYTTE)
 
 
-\n
+

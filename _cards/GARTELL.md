@@ -7,4 +7,4 @@ is_name: true
 GARTELL see also GARTRELL?
 
 
-\n
+

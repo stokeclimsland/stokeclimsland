@@ -7,4 +7,4 @@ is_name: true
 SHORT(E)(S)
 
 
-\n
+

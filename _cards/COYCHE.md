@@ -7,4 +7,4 @@ is_name: true
 COYCHE (see also COUCHE
 
 
-\n
+

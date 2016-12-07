@@ -7,4 +7,4 @@ is_name: true
 POM(E)ROY
 
 
-\n
+

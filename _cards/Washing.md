@@ -7,4 +7,4 @@ is_name: false
 Washing Day
 
 
-\n
+

@@ -7,4 +7,4 @@ is_name: false
 Blue Cap
 
 
-\n
+

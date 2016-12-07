@@ -7,4 +7,4 @@ is_name: true
 JERYE (see also JORY)
 
 
-\n
+

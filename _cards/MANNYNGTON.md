@@ -7,4 +7,4 @@ is_name: true
 MAN(N)YNGTON
 
 
-\n
+

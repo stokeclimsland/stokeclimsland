@@ -7,4 +7,4 @@ is_name: true
 SPETTIGUE (SPETEGUE) (SPETTIGO)
 
 
-\n
+
