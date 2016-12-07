@@ -8,6 +8,13 @@ url:         "http://www.stokearchive.org"
 date_format: "%b %-d, %Y"
 
 
+source:       .
+destination:  ./_site
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+data_dir:     _data
+includes_dir: _includes
+
 collections:
   records:
     output: true
@@ -120,7 +127,7 @@ text:
       sent:     'Message sent!'
       error:    'Error!'
   thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-  og_locale: 'en_US'
+  og_locale: 'en_GB'
 
 # Build settings
 markdown:     kramdown
@@ -133,7 +140,7 @@ sass:
 
 gems:
   - jekyll-paginate
-  # - jekyll-sitemap
+  - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
 
 exclude: 
