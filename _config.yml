@@ -147,6 +147,7 @@ prose:
   siteurl: 'http://www.stokearchive.org'
   # relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'media'
+  
   ignore:
     - index.md
     - _config.yml
@@ -163,9 +164,15 @@ prose:
     - index.html
     - 404.md
     - resources
+  
   metadata:
     _cards:
+      - name: "layout"
+          field:
+            element: "text"
+            value: "card"
       - name: "is_name"
+        label: "Is this a fmaily name?"
         field:
           element: "checkbox"
           value: "false"
