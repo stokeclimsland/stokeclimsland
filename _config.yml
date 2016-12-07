@@ -170,7 +170,7 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "title"
+          label: "Title"
       - name: "layout"
         field:
           element: "text"
@@ -180,12 +180,11 @@ prose:
         field:
           element: "checkbox"
           value: "false"
-      
     _records:
       - name: "title"
         field:
           element: "text"
-          label: "title"
+          label: "Title"
       - name: "layout"
         field:
           element: "text"
