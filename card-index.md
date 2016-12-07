@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Card Index
+short_title: Index
 permalink: /cards/
 tags: records, archive
 inmenu: 2

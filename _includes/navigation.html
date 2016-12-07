@@ -1,6 +1,8 @@
 {% assign sorted_pages = site.pages  | sort:"inmenu" %}
 {% for page in sorted_pages %}
     {% if page.inmenu %}
-        <a href="{{ page.url }}">{{ page.title }}</a>
+        <a href="{{ page.url }}">
+        	{% if page.short_title %}{{ page.short_title }}{% else %}{{ page.title }}{% endif %}
+        </a>
     {% endif %}
 {% endfor %}
