@@ -6,6 +6,12 @@ tags: contact
 inmenu: 3
 ---
 
+
+Please contact us if you would like to make use of the archive, or if you have material or stories to contribute. 
+
+Contact: Caroline Vulliamy at the [Old School, Stoke Climsland](http://www.theoldschoolweb.org.uk/) on +44(0)1579 370493. You can e-mail: [info@stokearchive.org](mailto:info@stokearchive.org), or use the form below.
+
+
 <div class="py2">
   {% if site.ajaxify_contact_form %}
     <form class="form-stacked">

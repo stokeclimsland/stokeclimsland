@@ -7,21 +7,25 @@ layout: default
   </header>
   <article class="post-content">
   
+  {{ content }}
+  </article>
 
+<hr>
+
+<small>
 <ul>
   {% if page.year %}<li>Year: <strong>{{page.year}} </strong></li>{% endif %}
   {% if page.tags %}<li>Tags: <strong>
-  	{% assign tags = page.tags %}
-  	{% for tag in page.tags %}
-  		<a href="http://www.google.com?q=insite:{{site.baseurl}}+{{tag}}">{{tag}}</a>
-  	{% endfor %}
+    {% assign tags = page.tags %}
+    {% for tag in page.tags %}
+      <a href="http://www.google.com?q=insite:{{site.baseurl}}+{{tag}}">{{tag}}</a>
+    {% endfor %}
    </strong></li>{% endif %}
 
   
   {% if page.archivist %}<li>Archived by: <strong>{{page.archivist}} </strong></li>{% endif %}
 
 </ul>
+</small>
 
-  {{ content }}
-  </article>
 </div>

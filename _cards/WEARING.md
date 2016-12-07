@@ -4,7 +4,10 @@ is_name: true
 
 ---
 
-WEARING 4
+WEARING
 
 
+#### Records in the archive
+
+- [Will of William Wearing](/records/will-of-william-wearing-1782)
 
