@@ -167,10 +167,14 @@ prose:
   
   metadata:
     _cards:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
       - name: "layout"
-          field:
-            element: "text"
-            value: "card"
+        field:
+          element: "text"
+          value: "card"
       - name: "is_name"
         label: "Is this a fmaily name?"
         field:
