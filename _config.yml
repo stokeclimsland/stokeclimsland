@@ -158,6 +158,13 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
+    - /_sass
+    - css
+    - images
+    - .gitignore
+    - CNAME
+    - .travis.yml
+    - Gemfile
   metadata:
     _posts:
       - name: "layout"
