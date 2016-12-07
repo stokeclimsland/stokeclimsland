@@ -16,5 +16,4 @@ We're still working on this part of the site. We have some of the archive digiti
   <a href="{{record.url}}">{{ record.title }}</a>  
 {% endfor %}
 
-{% include pagination.html %}
   
