@@ -170,19 +170,9 @@ prose:
     - 404.md
     - resources
   metadata:
-    _posts:
-      - name: "layout"
+    _cards:
+      - name: "is_name"
         field:
-          element: "hidden"
-          value: "blog"
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-    
+          element: "checkbox"
+          value: "false"
+      
