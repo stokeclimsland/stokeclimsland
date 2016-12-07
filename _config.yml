@@ -8,10 +8,10 @@ url:         "http://www.stokearchive.org"
 date_format: "%b %-d, %Y"
 
 
-
-
 collections:
   records:
+    output: true
+  cards:
     output: true
 
 defaults:
@@ -20,6 +20,11 @@ defaults:
       type: records
     values:
       layout: record
+  - scope:
+      path: ""
+      type: cards
+    values:
+      layout: card
 
 
 
