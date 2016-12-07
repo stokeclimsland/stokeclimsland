@@ -181,3 +181,14 @@ prose:
           element: "checkbox"
           value: "false"
       
+    _records:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "layout"
+        field:
+          element: "text"
+          value: "record"
+      
+      
