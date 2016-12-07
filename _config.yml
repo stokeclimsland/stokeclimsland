@@ -130,15 +130,19 @@ permalink:    pretty
 paginate:     4
 sass:
   compressed: true
+
 gems:
   - jekyll-paginate
-  - jekyll-sitemap
+  # - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
-exclude: [vendor]
+
+exclude: 
+  - vendor
+  - resources
 
 
 prose:
-  rooturl: '_posts'
+  rooturl: ''
   siteurl: 'http://www.stokearchive.org'
   # relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'media'
@@ -163,13 +167,4 @@ prose:
               value: "apples"
             - name: "Bananas"
               value: "bananas"
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
+    
