@@ -1,3 +1,11 @@
+# Site content
+
+Copyright (c) 2016 Stoke Climsland Parish Archive, unless otherwise stated.
+
+
+
+# Pixyll Theme
+
 Copyright (c) 2014-2015 John Otander
 
 MIT License
