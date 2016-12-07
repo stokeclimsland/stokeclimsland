@@ -168,7 +168,7 @@ prose:
     - contact.html
     - index.html
     - 404.md
-    
+    - resources
   metadata:
     _posts:
       - name: "layout"
