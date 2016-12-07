@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="h2">{{ page.title }}</h1>
+  </header>
+  <article class="post-content">
+  
+
+<ul>
+  {% if page.year %}<li>Year: <strong>{{page.year}} </strong></li>{% endif %}
+  {% if page.tags %}<li>Tags: <strong>
+  	{% assign tags = page.tags %}
+  	{% for tag in page.tags %}
+  		<a href="/cards/{{tag}}">{{tag}}</a>
+  	{% endfor %}
+   </strong></li>{% endif %}
+
+  
+  {% if page.archivist %}<li>Archived by: <strong>{{page.archivist}} </strong></li>{% endif %}
+
+</ul>
+
+  {{ content }}
+  </article>
+</div>
