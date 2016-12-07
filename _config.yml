@@ -165,6 +165,10 @@ prose:
     - CNAME
     - .travis.yml
     - Gemfile
+    - contact.html
+    - index.html
+    - 404.md
+    
   metadata:
     _posts:
       - name: "layout"
