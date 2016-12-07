@@ -3,24 +3,30 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="h2">{{ page.title }}</h1>
+    <h1 class="h2">{{ card.title }}</h1>
   </header>
   <article class="post-content">
+
+
+  {% if page.is_name %}
+  <p>{{post.title}} is a family name recorded in the archive. </p>
+  {% endif %}
+
   {{ content }}
 
 
-{% if page.variants %}
+{% if card.variants %}
   <h4>Variants on this term</h4>
-  {% for v in page.variants %}
+  {% for v in card.variants %}
     {{v}}
   {% endfor %}
 {% endif %}
 
 
 
-{% if page.related %}
+{% if card.related %}
   <h4>Related index cards</h4>
-  {% for rcard in page.related %}
+  {% for rcard in card.related %}
   	{{rcard}}
   {% endfor %}
 {% endif %}
